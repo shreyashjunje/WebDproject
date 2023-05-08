@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME PAGE</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+
+    <style>
+      *{
+          margin: 0%;
+          padding: 0%;
+      }
+      .background{
+          background-image: url('https://images.unsplash.com/photo-1519458246479-6acae7536988?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+          height: 100vh;
+          width: 100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 1000%;
+      }
+      .navbar{
+          /* color: white; */
+          background-color: #1b1b1b;
+          padding-top: 0%;
+          padding-bottom: 0%;
+          padding-right: 7%;
+          color: white;
+
+
+      }
+      .navbar ul{
+          overflow: auto;
+      }
+      .navbar li{
+
+          float: right;
+          list-style: none;
+          margin: 12px ;
+          padding: 10px;
+          /* padding-right: 0px; */
+
+
+
+      }
+      .navbar a{
+          color: white;
+          text-decoration: none;
+
+      }
+
+      .div{
+          font-size: 60px;
+          font-weight: bolder;
+          color: white;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font
+
+      }
+      .maindiv{
+          /* border: 2px solid white; */
+          margin: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 600px;
+
+      }
+      .btn{
+          /* border: 2px solid white; */
+          margin: auto;
+
+          padding: 0px 25px;
+          width: 65%;
+          text-align: center;
+          position: relative;
+          padding-left: 20%;
+
+
+      }
+      .button{
+          border: 2px solid white;
+          color: white;
+          padding: 8px 35px;
+          font-size: 16px;
+          /* background-color: black; */
+          background: none;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+
+
+      }
+      .button:hover{
+        background-color: aliceblue;
+        /* background: none; */
+        color: black;
+        cursor: pointer;
+      }
+      a:hover{
+          /* color: rgb(0, 0, 0); */
+          /* background-color: black; */
+
+      }
+      .title{
+          /* margin-right: 19%; */
+          margin-top: 9px;
+          margin-left: 3%;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+          font-size: 30px;   
+         }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <header>
+        <nav class="navbar">
+          <!-- <div ><h1 class="heading">CodingLab</h1></div> -->
+          
+          <ul>
+            <li><a href="e">Feedback</a></li>
+            <li><a href="e">Contact</a></li>
+            <li><a href="e">Service</a></li>
+            <li><a href="e">About</a></li>
+            <li><a href="e">Home</a></li>
+            <h1 class="title">CodingLab</h1>
+          </ul>
+   
+        </nav>
+      </header>
+
+      <div class="maindiv">
+        <div class="div">
+          Create Amazing Website<br />Pure HTML & CSS Only
+          <div class="btn">
+            <button class="button"><a>Learn More</a></button>
+            <button class="button"><a>Subscribe</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
