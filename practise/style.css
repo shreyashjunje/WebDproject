@@ -1,0 +1,26 @@
+h1 {
+  animation-name: yash;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  color: red;
+   background-color: antiquewhite;
+  
+}
+h1:hover {
+    animation-play-state: running;
+ 
+   
+}
+@keyframes yash {
+    0% {
+      font-size: 0px;
+    }
+    50% {
+      font-size: 100px;
+    }
+    100% {
+      font-size: 20px;
+    }
+  }
+  
