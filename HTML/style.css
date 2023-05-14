@@ -9,32 +9,43 @@ nav{
     padding: 16px 0px;
     /* border: 2px solid green; */
     box-shadow: rgba(157, 157, 157, 0.2) 0px 4px 10px;
-
+    /* margin: 0px 16px; */
     background-color: #F7F8FC;
+
 }
 .navbar {
   width: 100%;
-  height: 100vh;
- 
+  /* height: 100vh; */
+  /*    margin: 0px 16px; */
   /* padding: 16px 0px; */
   display: inline-block;
+  position: fixed;
   
 }
 .navigation {
   list-style: none;
   padding-left: 80px;
+ 
 }
 .list {
   display: inline;
-  margin: 30px;
-  font-size: 20px;
+  margin: 15px;
+  font-size: 18px;
+  width: 346.58px;
+  height: 62px;
+  padding: 20px 0px;
+  font-family: Rubik,sans-serif;
+ 
+  
+  
+ 
 }
 
 .btn {
     float: right;
     justify-content: space-between;
-    padding-right: 140px;
-    
+    /* padding-right: 20pxpx; */
+    /* padding-right: 70px; */
     
    
 }
@@ -46,9 +57,55 @@ nav{
   height: 37px;
   font-size: 16px;
   border-radius: 0.375rem;
+
 }
 #icon{
     margin: 0px 0px 0px 8px;
     font-size: 1.25rem;
     line-height: 1.75rem;
+}
+#loginbtn{
+    color: white;
+    background-color: #6674CC;
+    font-weight: bold;
+    
+}
+#moon{
+    width: 38px;
+    vertical-align: middle;
+    height: 38px ;
+    font-size: 40px;
+    color:  #6674CC;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+#dashboardbtn{
+    background-color: white;
+    border-color: #6674CC;
+    color: black;
+   
+}
+/* #codehelplogo{
+    margin-left: 30px;
+} */
+body{
+    background-color: rgb(255 255 255);
+}
+
+.bigdiv{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red;
+    width: 91.666667%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.leftside{
+    border: 2px solid red;
+    display: block;
+}
+.rightside{
+    border: 2px solid green;
+    display: block;
 }
