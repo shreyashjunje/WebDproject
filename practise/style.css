@@ -5,12 +5,20 @@ h1 {
   animation-iteration-count: 1;
   color: red;
    background-color: antiquewhite;
+   cursor: pointer;
+   
   
 }
 h1:hover {
-    animation-play-state: running;
- 
+    animation-name: yash;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  color: red;
+   background-color: antiquewhite;
+   cursor: pointer;
    
+
 }
 @keyframes yash {
     0% {
