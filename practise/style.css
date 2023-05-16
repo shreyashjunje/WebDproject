@@ -1,34 +1,33 @@
 h1 {
-  animation-name: yash;
+  /* animation-name: yash;
   animation-duration: 3s;
   animation-timing-function: ease-out;
-  animation-iteration-count: 1;
+  animation-iteration-count: 1; */
   color: red;
-   background-color: antiquewhite;
-   cursor: pointer;
-   
-  
+  background-color: antiquewhite;
+  cursor: pointer;
 }
 h1:hover {
-    animation-name: yash;
+  /* animation-name: yash;
   animation-duration: 3s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: 1;
+  animation-timing-function: ease-out; */
+  animation: yash 1s infinite;
+  /* animation-iteration-count: 1; */
   color: red;
-   background-color: antiquewhite;
-   cursor: pointer;
-   
-
+  background-color: antiquewhite;
+  cursor: pointer;
 }
 @keyframes yash {
-    0% {
-      font-size: 0px;
-    }
-    50% {
-      font-size: 100px;
-    }
-    100% {
-      font-size: 20px;
-    }
+  0% {
+    /* font-size: 0px; */
+    background-color: #333;
   }
-  
+  50% {
+    /* font-size: 100px; */
+    background-color: #fff;
+  }
+  100% {
+    /* font-size: 20px; */
+    background-color: blue;
+  }
+}
