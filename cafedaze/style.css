@@ -1,5 +1,35 @@
-body {
-  background-image: url("./images/banner.jpg");
+.navlist {
+  list-style: none;
+  color: white;
+  display: inline-block;
+  justify-content: center;
 }
+.navbar li {
+  display: flex;
+}
+.navbar {
+  background-image: url("./images/banner.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.symbol {
+  float: right;
+}
+.offer{
+    font-size: 60px;
+    align-content: center;
+    display: block;
+    text-align: center;
+    padding-top: 140px;
+    margin-bottom: 10px;
 
-  
+    
+}
+.dots{
+    text-align: center  ;
+}
+.dots a{
+    color: coral;
+}
