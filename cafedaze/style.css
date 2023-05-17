@@ -28,8 +28,22 @@
     
 }
 .dots{
-    text-align: center  ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
-.dots a{
-    color: coral;
+.offermenu{
+  
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding-left: 40px;
+   
 }
+
+.divoffermenu{
+    padding-top: 40px;
+}
+   
+
