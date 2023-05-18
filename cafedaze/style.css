@@ -4,8 +4,11 @@
   display: inline-block;
   justify-content: center;
 }
-.navbar li {
-  display: flex;
+.navbar ul{
+  display: inline;
+  justify-content: center;
+  align-items: center;
+
 }
 .navbar {
   background-image: url("./images/banner.jpg");
@@ -13,37 +16,79 @@
   height: 100vh;
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
+  /* overflow: hidden; */
+
 }
 .symbol {
-  float: right;
+  /* justify-content: right; */
 }
-.offer{
-    font-size: 60px;
-    align-content: center;
-    display: block;
-    text-align: center;
-    padding-top: 140px;
-    margin-bottom: 10px;
+.div2{
+  height: 100vh;
+  width: 100%;
+}
+.offer {
+  font-size: 60px;
+  align-content: center;
+  display: block;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 10px;
+}
+.dots {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.offermenu {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
 
-    
+  padding-top: 40px;
 }
-.dots{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
+.divoffermenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70%;
 }
-.offermenu{
+.offermenu h3{
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Poppins,sans-serif;
+
   
-    display: inline-block;
-    text-align: center;
-    margin: 20px;
-    padding-left: 40px;
-   
 }
+.offermenu p{
+  font-size: 20px;
 
-.divoffermenu{
-    padding-top: 40px;
 }
-   
-
+.offermenu button{
+  color:  #d78373;
+  font-size: 18px;
+  width: 180px;
+  height: 50px;
+  background: none;
+  border: #d78373 1px solid;
+  border-radius: 5px;
+  margin-top: 8px;
+  
+}
+.div3{
+  width: 100%;
+  height: 80vh;
+}
+.aboutshop{
+  font-size: 60px;
+  align-content: center;
+  display: block;
+  text-align: center;
+  /* padding-top: 40px; */
+  margin-bottom: 10px;
+}
+.aboutimg{
+  width: 991px;
+  height: 768px;
+}
