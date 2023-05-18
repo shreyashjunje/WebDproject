@@ -4,11 +4,10 @@
   display: inline-block;
   justify-content: center;
 }
-.navbar ul{
+.navbar ul {
   display: inline;
   justify-content: center;
   align-items: center;
-
 }
 .navbar {
   background-image: url("./images/banner.jpg");
@@ -18,12 +17,11 @@
   justify-content: space-between;
   /* align-items: center; */
   /* overflow: hidden; */
-
 }
 .symbol {
   /* justify-content: right; */
 }
-.div2{
+.div2 {
   height: 100vh;
   width: 100%;
 }
@@ -54,19 +52,16 @@
   width: 100%;
   height: 70%;
 }
-.offermenu h3{
+.offermenu h3 {
   font-size: 30px;
   font-weight: bolder;
-  font-family: Poppins,sans-serif;
-
-  
+  font-family: Poppins, sans-serif;
 }
-.offermenu p{
+.offermenu p {
   font-size: 20px;
-
 }
-.offermenu button{
-  color:  #d78373;
+.offermenu button {
+  color: #d78373;
   font-size: 18px;
   width: 180px;
   height: 50px;
@@ -74,21 +69,67 @@
   border: #d78373 1px solid;
   border-radius: 5px;
   margin-top: 8px;
-  
 }
-.div3{
+.div3 {
   width: 100%;
   height: 80vh;
+  position: relative;
 }
-.aboutshop{
+.aboutshop {
   font-size: 60px;
   align-content: center;
   display: block;
   text-align: center;
-  /* padding-top: 40px; */
   margin-bottom: 10px;
 }
-.aboutimg{
-  width: 991px;
-  height: 768px;
+.aboutimg {
+  float: right;
+  width: 1120px;
+  height: 631px;
+  padding-right: 15%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  z-index: -1;
+}
+.div-in-aboutshop {
+  border: 2px solid black;
+  width: 600px;
+  height: 484px;
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+  top: 170px;
+  margin-left: 160px;
+  float: left;
+  padding: 50px 20px 30px 20px;
+}
+.div-in-aboutshop p{
+  font-size: 25px;
+
+}
+.div-in-aboutshop h1{
+
+}
+.div-in-aboutshop button{
+  color: #d78373;
+  font-size: 18px;
+  width: 180px;
+  height: 50px;
+  background: none;
+  border: #d78373 1px solid;
+  border-radius: 5px;
+  margin-top: 88px;
+
+
+}
+.div-in-aboutshop h1{
+  font-family: Poppins,sans-serif;
+  font-size: 50px;
+  /* font-weight: bolder; */
+  /* float: left; */
+  color: #3b3b3b;
+  /* float: left; */
+
+  
+
 }
