@@ -15,8 +15,6 @@
   height: 100vh;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  /* overflow: hidden; */
 }
 .symbol {
   /* justify-content: right; */
@@ -72,7 +70,7 @@
 }
 .div3 {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative;
 }
 .aboutshop {
@@ -92,7 +90,7 @@
   z-index: -1;
 }
 .div-in-aboutshop {
-  border: 2px solid black;
+  border: 1px black;
   width: 600px;
   height: 484px;
   position: absolute;
@@ -102,15 +100,13 @@
   margin-left: 160px;
   float: left;
   padding: 50px 20px 30px 20px;
+  box-shadow: 0 0 30px 0;
 }
-.div-in-aboutshop p{
+.div-in-aboutshop p {
   font-size: 25px;
-
 }
-.div-in-aboutshop h1{
 
-}
-.div-in-aboutshop button{
+.div-in-aboutshop button {
   color: #d78373;
   font-size: 18px;
   width: 180px;
@@ -118,18 +114,35 @@
   background: none;
   border: #d78373 1px solid;
   border-radius: 5px;
-  margin-top: 88px;
+  margin-top: 75px;
+}
+.div-in-aboutshop h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 50px;
+  color: #3b3b3b;
+}
+.div4 {
+  background-image: url("./images/client-bg.png");
+  width: 100%;
+  height: 100vh;
+}
 
+.div4 h1{
+  font-size: 60px;
+  align-content: center;
+  display: block;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 10px;  
+}
+.client{
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
 }
-.div-in-aboutshop h1{
-  font-family: Poppins,sans-serif;
-  font-size: 50px;
-  /* font-weight: bolder; */
-  /* float: left; */
-  color: #3b3b3b;
-  /* float: left; */
-
-  
-
+.client img{
+  float: left;
 }
