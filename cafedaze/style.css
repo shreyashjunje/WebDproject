@@ -51,8 +51,8 @@ body {
 .text{
   float: right;
   margin-right: 20%;
-  margin-top: 100px;
- 
+  margin-top: 60px;
+ margin-left: 40px;
   
 }
 .text h1{
@@ -71,8 +71,8 @@ body {
 .text button{
   color: #d78373;
   font-size: 18px;
-  width: 180px;
-  height: 50px;
+  width: 200px;
+  height: 60px;
   background: none;
   border: #d78373 1px solid;
   border-radius: 5px;
@@ -81,6 +81,14 @@ body {
   
 #callnow{
   color: white;
+  background-color: #4a4949;
+}
+#aboutus{
+  background-color: #d78373;
+  color: white;
+  cursor: pointer;
+}
+ #aboutus:hover{
   background-color: #4a4949;
 }
   
