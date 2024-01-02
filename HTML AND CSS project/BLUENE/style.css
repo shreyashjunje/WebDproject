@@ -1,0 +1,236 @@
+
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sigmar', sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0%  ;
+}
+#homepage{
+    background-image: url("images/banner.jpg") ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 40px;
+  align-items: center;
+}
+
+#navbar ul{
+    margin: 15px;
+    padding: 0px;
+    margin-left: 30px;
+}
+#navbar ul li{
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#navbar img{
+    height: 25px;
+    width: auto;    
+
+}
+#imgbtn{
+   width: 100px;
+   height: 100px;
+   
+}
+#home{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+#mainimg{
+    height: 500px;
+    width: 500px;
+    padding-top: 20px;
+}
+#home{
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.main_content{
+    line-height: 50px;
+}
+.main_content button{
+    margin-top: 30px;
+    width: 300px;
+    height: 70px;
+    color: red;
+
+
+}
+.main_content button:hover{
+    background-color: red;
+    color: white;
+    transition: 0.5s ease-in-out;
+    /* transition: 0.5s ease-out; */
+}
+
+#page2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px  80px;
+    
+  
+    
+    
+}
+.leftside{
+    height: 300px;
+    width: 600px;
+    /* align-items: center; */
+}
+.rightside{
+  display: block;
+  line-height: 30px;
+  width: 700px;
+  margin-left: 100px;
+  
+}
+
+.rightside h2{
+    font-size: 40px;
+    line-height: 15px;
+
+}
+
+.rightside span{
+    font-size: 17px;
+    display: block;
+    padding-top: 25px;
+    line-height: 30px;
+}
+
+.rightside a{
+    text-decoration: none;
+    display: flex;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    height: 40px;
+    width: 200px;
+}
+.rightside a:hover{
+    background-color: red;
+    color: black;
+    transition: ease-in all 0.5s;
+
+}
+
+#page3{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    margin: 25px 0px;
+}
+.page3rightside a{
+    background-color: white;
+    color: black;
+}
+.page3rightside h2{
+    font-size: 50px;
+}
+.page3rightside{
+    margin-left: 60px;
+}
+
+#page4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 120px;
+
+    /* margin: 60px; */
+}
+#page4 h2{
+    font-size: 50px;
+    margin: 25px 0px;
+
+}
+#page4 p{
+    font-size: 17px;
+    margin: 30px 60px;
+}
+
+.images_grid{
+    width: 555px;
+    height: 311px;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+#page5{
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+}
+#twodiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.h2element{
+    padding: 25px 0px;
+    margin: 25px 60px;
+}
+
+.h2element h2{
+    font-size: 80px;
+    line-height: 40px;
+}
+#contact{
+    width: 650px;
+    height: 300px;
+    background-color: white;
+    color: red;
+    padding: 0px 5px;
+    margin-right: 80px;
+}
+ul{
+    list-style: none;
+}
+.contact_list{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 0px 25px ;
+
+}
+.contact_list li{
+    text-align: center;
+    margin: 0px 25px;
+
+}
+.contact_list li h2,a{
+    font-size: 40px;
+}
+
+#page5 span{
+    display: block;
+    padding: 0px 140px;
+    font-size: 17px;
+}
