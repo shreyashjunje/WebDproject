@@ -1,0 +1,14 @@
+.panel{
+   height: 300px;
+   width: 200px;
+   display: inline-block;
+    background-color: beige;
+  border: 1px solid black;
+  cursor: pointer;
+
+
+}
+.panel.active{
+    width: 400px;
+    transition: 2s ease-out;
+}
