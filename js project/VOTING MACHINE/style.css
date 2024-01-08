@@ -5,12 +5,143 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #83A2FF;
 }
-div{
+#main_div{
+    margin-top: 50px;
     height: 600px;
-    width: 300px;
+    width: 400px;
+    background-color: rgba(188, 183, 183, 0.925);
+    border: 2px solid black;
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     flex-direction: column;
+    margin: 5% 30%;
 
+    border-radius: 20px;
+
+}
+#main_content{
+    height: 100%;
+    width: 92%;
+    display: inline-block;
+    
+    background-color: white;
+    margin: 0px 15px;
+    border: 1px solid black;
+}
+
+.box{
+    height: 30px;
+    width: 120px;
+    background-color: #525CEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    
+    margin-left: 200px;
+}
+
+#heading_section{
+    height: 50px;
+    
+    margin: 25px 40px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.big_circle{
+    height: 50px;
+    width: 50px;
+    background-color: #525CEB;
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+.big_block{
+    height: 40px;
+    width: 200px;
+    background-color: #4fc6f1;
+    border-radius: 25px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder; */
+    /* margin: 10px 25px; */
+}
+#div_section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.party_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+    ;
+}
+.party_info{
+    height: 50px;
+    width: 220px;
+    background-color: rgb(225, 214, 214);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.party_info img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.party_info h2{
+    font-size: 20px;
+    
+}
+.voting_indicator{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+.voting_btns{
+    height: 40px;
+    width: 80px;
+    border-radius: 25px;
+    background-color: #525CEB;
+    
+    
+}
+
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+#footer button{
+    width: 100px;
+    height: 40px;
+    margin: 0px 20px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: green;
+}
+p{
+    text-align: center;
+    margin: 10px;
+    color: red;
+    font-size: 20px;
+}
+
+.green_indicator{
+    background-color: green;
 }

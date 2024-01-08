@@ -1,54 +1,82 @@
 let arr=[];
+let voting_btns=document.querySelectorAll('.voting_btns');
+let voting_indicators=document.querySelectorAll('.voting_indicator')
+let reset_btn=document.querySelector("#reset_btn");
+let result_para=document.querySelector("#result_para");
+let result_btn=document.querySelector("#result_btn");
+ voting_btns.forEach((voting_btn)=>{
+    voting_btn.addEventListener("click",()=>{
+       voting_btn.previousElementSibling.style.backgroundColor="green";
+       voting_btn.style.backgroundColor="blue"
 
-// let numberArray = arr.map(function(element) {
-//     return parseInt(element, 10); // 10 is the radix/base for decimal numbers
-// });
-let btns=document.querySelectorAll('.btn');
-let voting_result_btn=document.querySelector('#result');
+       setTimeout(()=>{
+        voting_btn.previousElementSibling.style.backgroundColor="red";
+        voting_btn.style.backgroundColor="#525CEB"
 
-
-
-
-    btns.forEach((btn)=>{
-        btn.addEventListener("click",()=>{
-            console.log("hi");
-            arr.push(parseInt(btn.value,10));
-            
-        })
+       },400)
+    //    voting_btn.previousElementSibling.classList.toggle("green_indicator");
+       arr.push(voting_btn.value);
+       console.log("hi");
+       sort(arr);
     })
+ })
 
 
-
-
-
-function votingResult(arr){
-    let count=0;
-    let element;
-    // let i=0;
-    let n=arr.length;
-    for(let i=0;i<n;i++){
-        
-        if(count==0){
-        
-            element=arr[i];
-        }
-        if(arr[i]==element){
-            
-            count++;
-        }else{
-            count--;
-
-        }
-    }
-    // console.log(count);
-    
-
+function sort(arr){
+    arr.sort();
 }
 
 
 
-voting_result_btn.addEventListener("click", votingResult);
+function voting_Result(){
+  let result_arr=[];
+  let count=0;
+  let max=-1;
+  let element;
+  for (let i=0;i<arr.length;i++){
+    if(count==0){
+        element=arr[i];
+    }
+    if(arr[i]==element){
+        count++;
+    }else{
+       if(count>max){
+        max=count;
+        result_arr=[];
+        result_arr.push(element);
+        
+       }else if(count==max){
+        result_arr.push(element);
+       }
+       count=1;
+       element=arr[i];
+    }
+  }
+  if(count>max){
+    result_arr=[];
+    result_arr.push(element);
+  }else if(count==max){
+    result_arr.push(element);
+  }
+  return result_arr;
+}
 
+
+reset_btn.addEventListener("click",()=>{
+    arr=[];
+    result_para.innerText="RESULT ANNOUSEMENT HERE"
+    
+})
+
+
+result_btn.addEventListener("click",()=>{
+    result_para.innerText= `winner is ${voting_Result()}`;
+    result_arr=[];
+    arr=[];
+
+
+
+})
 
 
 
