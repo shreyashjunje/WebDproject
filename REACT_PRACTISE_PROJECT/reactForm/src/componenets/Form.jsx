@@ -35,13 +35,17 @@ const Form = () => {
           </p>
           <input type="text" value={formData.lastName} name="lastName" placeholder="enter lastName" onChange={changehandler} required/>
         </label>
-        
+
         <label>
           <p>
             Email<sup>*</sup>
             </p>
           <input type="email" value={formData.email} name="email" placeholder="enter email" onChange={changehandler} required/>
         </label>
+
+
+
+        
 
         <label>
           <p>Contact</p>
