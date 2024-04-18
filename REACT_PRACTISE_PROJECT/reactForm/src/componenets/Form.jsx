@@ -44,9 +44,6 @@ const Form = () => {
         </label>
 
 
-
-        
-
         <label>
           <p>Contact</p>
           <input type="contact" value={formData.contact} name="contact" placeholder="+91" onChange={changehandler} required/>
